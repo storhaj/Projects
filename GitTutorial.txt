@@ -25,12 +25,19 @@ git add . //Add all changes made to the project
 git commit -m "This is a commit" //Takes a snapshot in time and enables the user to return to this point, if further changes are made in the project. The quotation marks is used to describe the changes
  "This message is used to describe changes that was made in this commit".
 
+git log //View commit history
 
+git log --author="Storhaj" //Shows commits made by the person
 
+git status //status of your working directory and the git folder. If changes are made in the working directory that is not commited, it will be visible if git status is ran.
 
+git add file.txt //adds a file called file.txt to the staging area
 
+/*
+Git workflow, working copy -> staging area -> repository
+*/
 
-
+git commit -m "Adding an updated version of the Git tutorial file" //commits changes to the GitTutorial.txt in the repository
 
 
 
