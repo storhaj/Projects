@@ -1,0 +1,49 @@
+git --version //Print version of Git
+
+git config --global user.name "username"	//Gives user a username
+
+git config --global user.email "firstname.lastname@email.com" //Gives user an email
+
+git config --list	//Settings for Git
+
+git config user.email //View user settings for email
+
+clear	//Clear screen
+
+git help	//Help commands for git
+
+git help commit		//Opens commit help page
+
+/*
+Locate the folder for the git repository through ls and cd.
+*/
+
+git init //initializes empty git repository
+
+git add . //Add all changes made to the project
+
+git commit -m "This is a commit" //Takes a snapshot in time and enables the user to return to this point, if further changes are made in the project. The quotation marks is used to describe the changes
+ "This message is used to describe changes that was made in this commit".
+
+
+
+
+
+
+
+
+
+
+
+
+pwd //Print working directory, tells the user where the user is located.
+
+cd ~ //Takes user to the home directory
+
+cd .. //Takes user back one directory
+
+ls //Lists all folders in the directory
+
+ls -la //Shows all files including the hidden files
+
+cd desktop //Changes the directory to desktop
