@@ -45,6 +45,10 @@ git add GitTutorial.txt		//adds GitTutorial.txt to the stageing area
 
 git commit -m "Modified GitTutorial with improvements" //commits the changes on GitTutorial.txt to the repository
 
+git add  .	//adds all files to the stageing area, even if multiple
+
+git commit -m "This is how to edit multiple files" //Commits multiple files to the repository
+
 
 
 
