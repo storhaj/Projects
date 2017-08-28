@@ -39,10 +39,16 @@ Git workflow, working copy -> staging area -> repository
 
 git commit -m "Adding an updated version of the Git tutorial file" //commits changes to the GitTutorial.txt in the repository
 
+git log //Show the two commits made to the repository
+
+git add GitTutorial.txt		//adds GitTutorial.txt to the stageing area
+
+git commit -m "Modified GitTutorial with improvements" //commits the changes on GitTutorial.txt to the repository
 
 
 
 
+_____________________________________________________________________________________________________________________________________
 pwd //Print working directory, tells the user where the user is located.
 
 cd ~ //Takes user to the home directory
