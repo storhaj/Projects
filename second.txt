@@ -1,1 +1,1 @@
-changes to the second. This is now changed.
+changes to the second. This is now changed. This is another change to the second file
