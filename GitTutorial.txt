@@ -107,12 +107,12 @@ git status
 
 git checkout -- index.html //take something from repository and make it a working copy
 
+git reset HEAD file.html //Removes file from staging area and can be adjusted as a working copy.
 
 
-
-
-
-
+/*
+first > second > third > second
+*/
 
 
 
@@ -121,6 +121,9 @@ git checkout -- index.html //take something from repository and make it a workin
 
 
 _____________________________________________________________________________________________________________________________________
+
+/************ GIT BASH COMMANDS ********************/
+
 pwd //Print working directory, tells the user where the user is located.
 
 cd ~ //Takes user to the home directory
