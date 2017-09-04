@@ -49,6 +49,74 @@ git add  .	//adds all files to the stageing area, even if multiple
 
 git commit -m "This is how to edit multiple files" //Commits multiple files to the repository
 
+git diff	//Compares and visualizes differences from the repository and the working repository.
+
+/*
+git diff will not compare files in the staging area!!!
+*/
+
+git diff --staged //Compares differences within the staging area and the Git repository 
+
+git rm third.txt //removes the file third.txt, this command removes the file from the working repository and the git repository.
+
+git status //still shows the file that was deleted and the change needs to be commited for the file to get removed. 
+
+git commit -m "This is the point in time where i deleted third.txt" //Now the commit is done and the file is deleted
+
+/**********
+Create first.txt
+Chang name of first.txt to index.txt
+
+git add index.txt
+
+
+git rm first.txt  
+
+
+git commit -m "rename first.txt to index.txt"
+***********/
+
+git mv index.txt home.txt		//Rename file from index.txt to home.txt
+
+Create a folder
+hot mv home.txt Folder/newfilenewfolder
+git commit -m "Renamed file and put into new folder"
+
+
+
+
+git init //create a Git repository
+git add .
+git commit -m "This is the very first commit"
+
+
+
+git commit -am "Cleaned up the HTML comments"		//skipps staging area and commit directly from working copy to repositary
+/*
+Be careful when using command above
+
+Grabs everything in working copy
+Any changes that was made is pushed into repository
+Only used when simple edits are made on few files
+
+*/
+
+//take files from repository and replace the working copy
+
+git status
+
+git checkout -- index.html //take something from repository and make it a working copy
+
+
+
+
+
+
+
+
+
+
+
 
 
 
