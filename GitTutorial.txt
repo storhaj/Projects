@@ -115,10 +115,21 @@ first > second > third > second
 */
 
 
+git checkout 4528e794 -- New.txt//check out old file (just add a dew letters from the commit code)
+
+git commit -am "undoing previous mistakes"
 
 
 
+/*
 
+GITHUB
+
+*/
+
+git remote add PublicRepo https://github.com/storhaj/Projects.git //set remote repo to be named PublicRepo
+
+git remote //view remote repo
 
 _____________________________________________________________________________________________________________________________________
 
